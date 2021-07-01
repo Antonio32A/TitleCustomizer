@@ -61,15 +61,8 @@ repositories {
 
 dependencies {
     provided files("libs/modcore.jar")
-    embed("club.sk1er:Elementa:249-10809-SNAPSHOT") {
-        exclude module: "kotlin-stdlib-jdk8"
-        exclude module: "kotlin-reflect"
-    }
-    embed("club.sk1er:Vigilance:91-10809-SNAPSHOT") {
-        exclude module: "kotlin-stdlib-jdk8"
-        exclude module: "kotlin-reflect"
-    }
 
+    embed("gg.essential:Vigilance:125-10809-SNAPSHOT")
     embed("org.spongepowered:mixin:0.7.11-SNAPSHOT") {
         exclude module: "launchwrapper"
         exclude module: "guava"
@@ -111,8 +104,9 @@ shadowJar {
     exclude("META-INF/versions/")
     exclude("LICENSE.txt")
 
-    relocate "club.sk1er.vigilance", "com.antonio32a.vigilance"
-    relocate "club.sk1er.elementa", "com.antonio32a.elementa"
+    relocate "gg.essential.vigilance", "com.antonio32a.vigilance"
+    relocate "gg.essential.elementa", "com.antonio32a.elementa"
+    relocate "gg.essential.universal", "com.antonio32a.universal"
 
     configurations = [project.configurations.embed]
 }
