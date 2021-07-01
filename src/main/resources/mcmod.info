@@ -1,0 +1,16 @@
+[
+    {
+        "modid": "titlecustomizer",
+        "name": "TitleCustomizer",
+        "description": "Allows you to customize the size and location of the title and subtitle overlays.",
+        "version": "${version}",
+        "mcversion": "1.8.9",
+        "url": "https://github.com/Antonio32A/TitleCustomizer",
+        "updateUrl": "",
+        "authorList": ["Antonio32A"],
+        "credits": "",
+        "logoFile": "",
+        "screenshots": [],
+        "dependencies": []
+    }
+]

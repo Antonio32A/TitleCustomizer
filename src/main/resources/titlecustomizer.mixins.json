@@ -1,0 +1,10 @@
+{
+    "compatibilityLevel": "JAVA_8",
+    "package": "com.antonio32a.titlecustomizer.mixins",
+    "refmap": "titlecustomizer.mixins.refmap.json",
+    "mixins": [
+        "GuiIngameForgeMixin"
+    ],
+    "client": [],
+    "server": []
+}
