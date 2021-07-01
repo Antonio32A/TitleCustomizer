@@ -1,9 +1,10 @@
 package com.antonio32a.titlecustomizer.core;
 
-import club.sk1er.vigilance.Vigilant;
-import club.sk1er.vigilance.data.Property;
-import club.sk1er.vigilance.data.PropertyType;
+
 import com.antonio32a.titlecustomizer.TitleCustomizer;
+import gg.essential.vigilance.Vigilant;
+import gg.essential.vigilance.data.Property;
+import gg.essential.vigilance.data.PropertyType;
 
 import java.io.File;
 
