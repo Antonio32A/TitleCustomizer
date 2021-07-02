@@ -28,7 +28,7 @@ apply plugin: "org.spongepowered.mixin"
 
 version = "1.0"
 group = "com.antonio32a"
-archivesBaseName = "TitleCustomizer"
+archivesBaseName = "!TitleCustomizer"
 
 sourceCompatibility = JavaVersion.VERSION_1_8
 targetCompatibility = JavaVersion.VERSION_1_8
