@@ -64,8 +64,6 @@ repositories {
 }
 
 dependencies {
-    provided files("libs/modcore.jar")
-
     embed("gg.essential:Vigilance:125-10809-SNAPSHOT")
     embed("org.spongepowered:mixin:0.7.11-SNAPSHOT") {
         exclude module: "launchwrapper"
@@ -96,7 +94,6 @@ shadowJar {
             "FMLCorePluginContainsFMLMod": true,
             "ForceLoadAsMod": true,
             "ModSide": "CLIENT",
-            "FMLCorePlugin": "com.antonio32a.titlecustomizer.core.FMLLoadingPlugin",
             "TweakClass": "org.spongepowered.asm.launch.MixinTweaker",
             "MixinConfigs": "titlecustomizer.mixins.json"
     )
